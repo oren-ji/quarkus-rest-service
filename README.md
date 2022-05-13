@@ -48,8 +48,6 @@ $ ./gradlew quarkusDev
 $ gradlew quarkusDev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
-
 ## Refreshing dependencies
 
 - You can refresh Gradle dependencies using:
