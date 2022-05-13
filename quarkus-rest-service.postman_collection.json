@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "86e18535-a6a4-400f-adc9-aa71788d53ca",
+		"name": "quarkus-rest-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access Token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "MJlO3binatD9jk1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "demo-backend-client",
+							"type": "string"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Grant-Type",
+						"value": "client_credentials",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/auth/token",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Introspect",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Token",
+						"value": "_0XBPWQQ_57b2143e-3a66-4504-b7d9-8dc2e1d6664e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "localhost:8080/auth/introspect",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"introspect"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
