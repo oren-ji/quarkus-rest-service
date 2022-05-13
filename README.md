@@ -26,17 +26,17 @@ To help developers onboard with Kotlin and Quarkus Framework.
 ## Getting Started
 
 1. Install GraalVM Community 22.1 (Java)
-   1. Linux - https://www.graalvm.org/22.1/docs/getting-started/linux/
-   3. Windows - https://www.graalvm.org/22.1/docs/getting-started/windows/
-   4. MacOS - https://www.graalvm.org/22.1/docs/getting-started/macos/
+   - Linux - https://www.graalvm.org/22.1/docs/getting-started/linux/
+   - Windows - https://www.graalvm.org/22.1/docs/getting-started/windows/
+   - MacOS - https://www.graalvm.org/22.1/docs/getting-started/macos/
 2. Install Docker
-   1. Linux - https://docs.docker.com/desktop/linux/install/
-   2. Windows - https://docs.docker.com/desktop/windows/install/
-   3. MacOS - https://docs.docker.com/desktop/mac/install/
+   - Linux - https://docs.docker.com/desktop/linux/install/
+   - Windows - https://docs.docker.com/desktop/windows/install/
+   - MacOS - https://docs.docker.com/desktop/mac/install/
 3. Install IntelliJ IDEA Community
-   1. Linux - https://www.jetbrains.com/idea/download/#section=linux
-   2. Windows - https://www.jetbrains.com/idea/download/#section=windows
-   3. MacOS - https://www.jetbrains.com/idea/download/#section=mac
+   - Linux - https://www.jetbrains.com/idea/download/#section=linux
+   - Windows - https://www.jetbrains.com/idea/download/#section=windows
+   - MacOS - https://www.jetbrains.com/idea/download/#section=mac
 
 ## Running the application
 
